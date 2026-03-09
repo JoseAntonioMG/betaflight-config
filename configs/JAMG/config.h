@@ -17,7 +17,7 @@
 #define SPI4_SDI_PIN                     PE5
 #define SPI4_SDO_PIN                     PE6
 #define GYRO_1_SPI_INSTANCE              SPI4
-//#define GYRO_1_ALIGN                     CW90_DEG
+#define GYRO_1_ALIGN                     CW90_DEG
 #define USE_SPI_DEVICE_2
 #define GYRO_2_CS_PIN                    PB12
 #define SPI2_SCK_PIN                     PB13
