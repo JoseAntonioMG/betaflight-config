@@ -4,6 +4,7 @@
 #define BOARD_NAME                       JAMG-FC
 #define MANUFACTURER_ID                  JAMG
 #define USE_CONFIG_TARGET_PREINIT
+#define HSE_VALUE                        = 25000000
 
 //****************** Giroscopio y acelerometro ICM42688P *********************//
 #define USE_SPI
