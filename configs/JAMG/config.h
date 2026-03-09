@@ -24,7 +24,7 @@
 #define SPI2_SDI_PIN                     PB14
 #define SPI2_SDO_PIN                     PB15
 #define GYRO_2_SPI_INSTANCE              SPI2
-//#define GYRO_2_ALIGN                     CW90_DEG
+#define GYRO_2_ALIGN                     CW90_DEG
 #define DEFAULT_GYRO_TO_USE              GYRO_CONFIG_USE_GYRO_BOTH
 
 //************************ Memoria FLASH 2 Mb ******************************//
