@@ -17,7 +17,7 @@
 #define SPI4_SDI_PIN                     PE5
 #define SPI4_SDO_PIN                     PE6
 #define GYRO_1_SPI_INSTANCE              SPI4
-#define GYRO_1_ALIGN                     CW90_DEG
+//#define GYRO_1_ALIGN                     CW90_DEG
 #define USE_SPI_DEVICE_2
 #define GYRO_2_CS_PIN                    PB12
 #define SPI2_SCK_PIN                     PB13
@@ -25,7 +25,7 @@
 #define SPI2_SDO_PIN                     PB15
 #define GYRO_2_SPI_INSTANCE              SPI2
 #define GYRO_2_ALIGN                     CW90_DEG
-#define DEFAULT_GYRO_TO_USE              GYRO_CONFIG_USE_GYRO_BOTH
+//#define DEFAULT_GYRO_TO_USE              GYRO_CONFIG_USE_GYRO_BOTH
 
 //************************ Memoria FLASH 2 Mb ******************************//
 #define USE_FLASH
